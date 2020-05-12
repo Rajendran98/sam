@@ -834,6 +834,12 @@ a img.aligncenter {
     ADDITION
 -------------------------------------------------------------------*/
 
+input.transparent-input{
+    background-color:rgba(0,0,0,0) !important;
+    border:none !important;
+ }
+
+
 .sam ul {
     text-indent: 1em;
 }
@@ -2614,7 +2620,7 @@ select.mobile-device {
 }
 
 .footer {
-    padding: 90px 0 80px !important;
+    padding: 10px 0px !important;
     color: #cccccc;
 	background:#4c5a7d url('images/world-map.png') no-repeat center; 
 }
@@ -2659,6 +2665,7 @@ select.mobile-device {
     margin-bottom: 5px;
     display: block;
     width: 100%;
+    font-size: 18px;
 	padding: 5px 0px;
     border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
 }
@@ -3369,7 +3376,7 @@ span.m_1 {
 	margin-bottom: 30px;
 	border: 1px solid #ebebeb;
 	box-sizing: border-box;
-	color: #bcbcbc;
+	color: black;
 	font-size: 16px;
 	outline: 0 none;
 	padding: 10px 25px;
