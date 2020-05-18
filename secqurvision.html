@@ -44,83 +44,61 @@
 
 	<!-- Modal -->
 	<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-		<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-			<div class="modal-content">
-				<div class="modal-header tit-up">
-					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-					<h4 class="modal-title">Customer Login</h4>
-				</div>
-				<div class="modal-body customer-box">
-					<!-- Nav tabs -->
-					<ul class="nav nav-tabs">
-						<li><a class="active" href="#Login" data-toggle="tab">Login</a></li>
-						<li><a href="#Registration" data-toggle="tab">Registration</a></li>
-					</ul>
-					<!-- Tab panes -->
-					<div class="tab-content">
-						<div class="tab-pane active" id="Login">
-							<form role="form" class="form-horizontal">
-								<div class="form-group">
-									<div class="col-sm-12">
-										<input class="form-control" id="email1" placeholder="Name" type="text">
-									</div>
-								</div>
-								<div class="form-group">
-									<div class="col-sm-12">
-										<input class="form-control" id="exampleInputPassword1" placeholder="Email"
-											type="email">
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-sm-10">
-										<button type="submit" class="btn btn-light btn-radius btn-brd grd1">
-											Submit
-										</button>
-										<a class="for-pwd" href="javascript:;">Forgot your password?</a>
-									</div>
-								</div>
-							</form>
-						</div>
-						<div class="tab-pane" id="Registration">
-							<form role="form" class="form-horizontal">
-								<div class="form-group">
-									<div class="col-sm-12">
-										<input class="form-control" placeholder="Name" type="text">
-									</div>
-								</div>
-								<div class="form-group">
-									<div class="col-sm-12">
-										<input class="form-control" id="email" placeholder="Email" type="email">
-									</div>
-								</div>
-								<div class="form-group">
-									<div class="col-sm-12">
-										<input class="form-control" id="mobile" placeholder="Mobile" type="email">
-									</div>
-								</div>
-								<div class="form-group">
-									<div class="col-sm-12">
-										<input class="form-control" id="password" placeholder="Password"
-											type="password">
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-sm-10">
-										<button type="button" class="btn btn-light btn-radius btn-brd grd1">
-											Save &amp; Continue
-										</button>
-										<button type="button" class="btn btn-light btn-radius btn-brd grd1">
-											Cancel</button>
-									</div>
-								</div>
-							</form>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+          <div class="modal-content">
+              <div class="modal-header tit-up">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                  <h4 class="modal-title">Contact</h4>
+              </div>
+              <div class="modal-body customer-box">
+                  <!-- Nav tabs -->
+                  
+                  <!-- Tab panes -->
+                  <div class="tab-content">
+                      <div class="tab-pane active" id="Login">
+						<form action="mailto:info@secquraise.com?subject=contact details" method="POST" enctype="text/plain" role="form" class="form-horizontal">
+							<div class="form-group">
+								
+									<input class="form-control" name="name" id="email1" placeholder="Name" type="text" required>
 
+							</div>
+							<div class="form-group">
+								
+									<input class="form-control" maxlength="10" name="phone number" id="phone number" placeholder="Phone Number" type ="tel" required>
+							
+							</div>
+							
+							<div class="form-group">
+								
+									<input class="form-control" name="organization" id="organization" placeholder="Organization" type ="text">
+								
+							</div>
+							
+
+							<div class="form-group">
+							
+ 									 <textarea class="form-control" name="comments" rows="4" id="comment" maxlength="150" placeholder="Comments"></textarea>
+							
+								
+							</div>
+							<div class="row">
+								<div class="col-sm-12">
+									<p style="line-height: 70px; text-align: center;">
+										<button type="submit" value="Send" class="btn btn-primary mb1 bg-navy">
+											Send
+										</button>
+									</p>	
+								</div>
+							</div>
+						</form>
+                      </div>
+                      
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+  
 	<!-- LOADER -->
 	<div id="preloader">
 		<div class="loader-container">
@@ -182,16 +160,18 @@
 
 
 
-	<div id="testimonials" class="parallax section db parallax-off" style="background-image:url('images/f11.jpeg');">
+
+	<div id="testimonials" class="parallax section db parallax-off" style="background-image:url('images/IMG_20200517_080915.jpg');  background: rgba(0,0,0,0.8);" >
         <div class="container">
             <div class="section-title text-center">
-                <h3 style="color: orangered;">SECQURVISION</h3>
-				<p style="color: white;">SecqurVision is the state-of-the-art surveillance platform from SecqurAIse, typically deployed as a layer on top of the pre-existing legacy surveillance setup. <br><br>
-					This platform eliminates the dependence on manual interpretation and monitoring. It leverages a number of sensors including CCTV cameras to keep a close watch on the secured premises and detect security violations in real-time to alert stakeholders and also trigger responses like deploying a tyre killer, Closing a Boom Barrier, sounding a hooter, Switching on a flood light, launching a drone, etc.,<br>
-					The platform converts the legacy surveillance systems which provide data to proactive systems which help stakeholders respond to situations effectively.
-				
+                <h3><span style="color: rgba(30, 221, 192, 0.774);">SECQUR</span><span style="color: rgb(238, 28, 28);">VISION</span></h3>
+				<hr>
+				<p style="color: white;">State-of-the-art surveillance platform, typically deployed as a layer on top of the pre-existing legacy surveillance setup, it eliminates the dependence on manual interpretation and monitoring. It leverages a number of sensors including CCTV cameras to keep a close watch on the secured premises and detect security violations in real-time to alert stakeholders and also trigger responses like deploying a tyre killer, closing a boom barrier, sounding a hooter, switching on a flood light, launching a drone, etc.
 				</p>
-			
+				<br>
+				
+				<p style="color: white;">This platform converts the legacy surveillance systems which provide data into proactive systems that help stakeholders respond to security situations in real-time. It also eliminates the need to setup a huge Command and Control Centre and deploy human resources for monitoring.</p>
+				<hr>
 			</div><!-- end title -->
 			
             
@@ -207,17 +187,25 @@
 		</div>
 	</div> -->
 
-	<div id="overviews" class="section wb">
+	<div id="overviews" class="section">
 		<div class="container">
 			<div class="row align-items-center">
 			
-
+				
 				<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
 					<div class="message-box">
 						
-					
-						<h4>Real-time Monitoring:</h4>
-						<p class="lead">By analyzing live footage from the CCTV cameras in near-real-time, the platform obviates the need to setup a huge Command and Control Centre and deploy human resources for monitoring.</p>
+						
+						<div class="post-media wow fadeIn">
+							<img src="images/s9.png" alt="" class="img-fluid img-rounded">
+						</div>
+						<h2>Highlights</h2>
+						<br>
+						<h4>Color-coding:</h4>
+						<p class="lead">Incidents are color coded into <span style="background-color: red; color: black;">RED</span>, <span style="background-color:yellow; color: black;">YELLOW</span>, <span style="background-color: green; color: black;">GREEN</span>, <span style="background-color: blue; color: black;">BLUE</span> and <span style="background-color: gray; color: black;">GRAY</span> based on severity to draw attention to the most relevant incidents so response can be provided efficiently.</p>
+						<div class="post-media wow fadeIn">
+							<img src="images/s3.png" alt="" class="img-fluid img-rounded">
+						</div><!-- end media -->
 					</div>
 				</div>
 			</div>			
@@ -230,10 +218,9 @@
 						
 						
 						
-						<h4>Color-coding:</h4>
-						<p class="lead">Incidents are color coded into <span style="background-color: red; color: black;">RED</span>, <span style="background-color:yellow; color: black;">YELLOW</span>, <span style="background-color: green; color: black;">GREEN</span>, <span style="background-color: blue; color: black;">BLUE</span> and <span style="background-color: gray; color: black;">GRAY</span> based on severity to draw attention to the most relevant incidents so response can be provided efficiently.</p>
+						
 						<h4>Rule based alerts:</h4>
-							<p class="lead">On detection of anomalies, the platform alerts relevant stakeholders and respondents based on pre-configured rules. Some of the anomalies captured by the platform are: </p>
+							<p class="lead">Alerts relevant stakeholders and respondents based on pre-configured rules. Some of the anomalies captured by the platform are: </p>
 							<ul>
 								
 								
@@ -265,37 +252,29 @@
 					
 						
 							<h4>Automatic Response:</h4>
-							<p class="lead">When incidents of significance occur, the platform can provide real-time response on certain scenarios. Some of the typical responses possible are: </p>
+							<p class="lead">When significant events occur, the platform can provide real-time responses such as: </p>
 							<ul>
-								
-								
-								<li><p class="lead">Operating a PTZ camera to zoom in on the area of incident.</p></li>
-								<li><p class="lead">Turning on Focus lights to shine on the area of incident.</p></li>
 								<li><p class="lead">Sounding a Siren.</p></li>
 								<li><p class="lead">Making Voice calls to a list of people.</p></li>
+								<li><p class="lead">Operating a PTZ camera to zoom in on the area of incident.</p></li>
+								<li><p class="lead">Turning on Focus lights to shine on the area of incident.</p></li>
+								
+								
 								<li><p class="lead">Operating a Boom Barrier/Tyre Rippers/ Bollards.</p></li>
 							
 								<li><p class="lead">Deploying a drone for closer scrutiny.</p></li>
 								
 							</ul>
-
-							<h4>Response tracking:</h4>
-							<p class="lead">The platform can track the action taken by the designated responders to identified incidents. If time-bound response is not provided it can also escalate by sending alerts to higher authorities in a pre-configured manner.</p>
-
-							<h4>Post-facto Analysis:</h4>
-							<p class="lead">Insights generated by analysing the live video footage are stored and presented through interactive dashboards helping users get deep insights on incidents without having to scan through hours of video footage.</p>
 							<h4>Interactive Dashboard:</h4>
-							<br>
-							<div class="post-media wow fadeIn">
-								<img src="images/s3.png" alt="" class="img-fluid img-rounded">
-							</div><!-- end media -->
-							<p class="lead">The platform offers an interactive dashboard to help stakeholders consume information of relevance without wasting too much time. The dashboard is highly customizable and can be modified to suit the needs of the end user.</p>
-			
-							
+							<p class="lead">The platform offers an interactive dashboard to help stakeholders consume information of relevance without wasting time. The dashboard is highly customizable and can be modified to suit the needs of the end-user.</p>
+
 							<h4>Investigation:</h4>
-						
-							<p class="lead">Users are provided with multiple tools to aid in investigation. Search interfaces through which users can search for key words – like Name, Vehicle Number, Activity, Object, etc are provided.</p>
-							<p class="lead">SecqurAIse also deploys basic CCTV surveillance networks if the client so prefers.</p>
+							<p class="lead">Users are provided with multiple tools to aid in investigation. Search interfaces through which users can search for key words – like name, vehicle number, activity, object, etc are provided.</p>
+
+							<h4>Deployment:</h4>
+							<p class="lead">We also undertake CCTV surveillance network installation where needed.</p>
+
+							
 							
 					</div><!-- end messagebox -->
 				</div><!-- end col -->
@@ -314,15 +293,14 @@
 
 
 	<footer class="footer">
-		<div class="container">
+        <div class="container">
 			<div class="row">
 				<div class="col-lg-4 col-md-4 col-xs-12">
 					<div class="widget clearfix">
 						<div class="widget-title">
                             <h3>About US</h3>
                         </div>
-                        <p> At SecqurAIse, we enter the office because we want to make life easy for businesses by bringing complex technology in simple forms.</p>   
-						
+                        <p> We are passionate about making life easy for businesses by bringing complex technology in simple forms. </p>   
 					</div><!-- end clearfix -->
 				</div><!-- end col -->
 
@@ -349,17 +327,19 @@
 						</div>
 
 						<ul class="footer-links">
-							<li><a href="mailto:info@secquraise.com">info@secquraise.com</a></li>
-							<li><a href="https://www.secquraise.com">www.secquraise.com</a></li>
-							<li>Chennai. Bangalore.</li>
-							<li>+917019936076</li>
+							<li>Sales :<a href="mailto:info@secquraise.com"> info@secquraise.com</a></li>
+							<li>Jobs :<a href="mailto:jobs@secquraise.com"> jobs@secquraise.com</a></li>
+							<li>Web :<a href="https://www.secquraise.com"> www.secquraise.com</a></li>
+				
+							<li>Phone : +917019936076</li>
+							<li>Location : Chennai. Bangalore.</li>
 						</ul><!-- end links -->
 					</div><!-- end clearfix -->
 				</div><!-- end col -->
 
 			</div><!-- end row -->
 		</div><!-- end container -->
-	</footer><!-- end footer -->
+    </footer><!-- end footer -->
 
 	<div class="copyrights">
 		<div class="container">
@@ -371,6 +351,10 @@
 			</div>
 		</div><!-- end container -->
 	</div><!-- end copyrights -->
+
+
+	<a href="#" class="fixed-btn"  style=" text-transform: uppercase; font-family: arial;
+		font-weight: 900; color: white;" data-toggle="modal" data-target="#login">Contact</a>
 
 	<a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
 

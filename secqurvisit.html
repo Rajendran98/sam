@@ -44,82 +44,60 @@
 
 	<!-- Modal -->
 	<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-		<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-			<div class="modal-content">
-				<div class="modal-header tit-up">
-					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-					<h4 class="modal-title">Customer Login</h4>
-				</div>
-				<div class="modal-body customer-box">
-					<!-- Nav tabs -->
-					<ul class="nav nav-tabs">
-						<li><a class="active" href="#Login" data-toggle="tab">Login</a></li>
-						<li><a href="#Registration" data-toggle="tab">Registration</a></li>
-					</ul>
-					<!-- Tab panes -->
-					<div class="tab-content">
-						<div class="tab-pane active" id="Login">
-							<form role="form" class="form-horizontal">
-								<div class="form-group">
-									<div class="col-sm-12">
-										<input class="form-control" id="email1" placeholder="Name" type="text">
-									</div>
-								</div>
-								<div class="form-group">
-									<div class="col-sm-12">
-										<input class="form-control" id="exampleInputPassword1" placeholder="Email"
-											type="email">
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-sm-10">
-										<button type="submit" class="btn btn-light btn-radius btn-brd grd1">
-											Submit
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+          <div class="modal-content">
+              <div class="modal-header tit-up">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                  <h4 class="modal-title">Contact</h4>
+              </div>
+              <div class="modal-body customer-box">
+                  <!-- Nav tabs -->
+                  
+                  <!-- Tab panes -->
+                  <div class="tab-content">
+                      <div class="tab-pane active" id="Login">
+						<form action="mailto:info@secquraise.com?subject=contact details" method="POST" enctype="text/plain" role="form" class="form-horizontal">
+							<div class="form-group">
+								
+									<input class="form-control" name="name" id="email1" placeholder="Name" type="text" required>
+
+							</div>
+							<div class="form-group">
+								
+									<input class="form-control" maxlength="10" name="phone number" id="phone number" placeholder="Phone Number" type ="tel" required>
+							
+							</div>
+							
+							<div class="form-group">
+								
+									<input class="form-control" name="organization" id="organization" placeholder="Organization" type ="text">
+								
+							</div>
+							
+
+							<div class="form-group">
+							
+ 									 <textarea class="form-control" name="comments" rows="4" id="comment" maxlength="150" placeholder="Comments"></textarea>
+							
+								
+							</div>
+							<div class="row">
+								<div class="col-sm-12">
+									<p style="line-height: 70px; text-align: center;">
+										<button type="submit" value="Send" class="btn btn-primary mb1 bg-navy">
+											Send
 										</button>
-										<a class="for-pwd" href="javascript:;">Forgot your password?</a>
-									</div>
+									</p>	
 								</div>
-							</form>
-						</div>
-						<div class="tab-pane" id="Registration">
-							<form role="form" class="form-horizontal">
-								<div class="form-group">
-									<div class="col-sm-12">
-										<input class="form-control" placeholder="Name" type="text">
-									</div>
-								</div>
-								<div class="form-group">
-									<div class="col-sm-12">
-										<input class="form-control" id="email" placeholder="Email" type="email">
-									</div>
-								</div>
-								<div class="form-group">
-									<div class="col-sm-12">
-										<input class="form-control" id="mobile" placeholder="Mobile" type="email">
-									</div>
-								</div>
-								<div class="form-group">
-									<div class="col-sm-12">
-										<input class="form-control" id="password" placeholder="Password"
-											type="password">
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-sm-10">
-										<button type="button" class="btn btn-light btn-radius btn-brd grd1">
-											Save &amp; Continue
-										</button>
-										<button type="button" class="btn btn-light btn-radius btn-brd grd1">
-											Cancel</button>
-									</div>
-								</div>
-							</form>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+							</div>
+						</form>
+                      </div>
+                      
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
 
 	<!-- LOADER -->
 	<div id="preloader">
@@ -222,14 +200,15 @@
 
 
 	
-	<div id="testimonials" class="parallax section db parallax-off" style="background-image:url('images/v2.png');">
+	<div id="testimonials" class="parallax section db parallax-off" style="background-image:url('images/IMG_20200515_183000.jpg'); background: rgba(0,0,0,0.7);">
         <div class="container">
             <div class="section-title text-center">
-                <h3 style="color: orangered;">SECQURVISIT</h3>
-				<p style="color: white;">SecqurVisit with SecqurAIse’s AI engine at core enables highly efficient and smooth Entry and Exit management facilities for organizations. This VMS can also be deployed using a temperature screening device listed in SecqurIN. <br><br>
+				<h3><span style="color: rgba(30, 221, 192, 0.774);">SECQUR</span><span style="color: rgb(238, 28, 28);">VISIT</span></h3>
+				<hr>
+				<p style="color: white;">This Visitor Management System (VMS) with SecqurAIse’s AI engine at core enables highly efficient and smooth Entry and Exit management facilities for organizations. This VMS can also be deployed using the SecqurIN temperature screening device. <br><br>
 				
 				</p>
-			
+				<hr>
 			</div><!-- end title -->
 			
             
@@ -239,15 +218,43 @@
 	<div id="overviews" class="section wb">
 		<div class="container">
 			
-
-
+			<br>
 			<div class="row align-items-center">
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+					<div class="message-box">
+						<!-- <h4>SecqurAIse Technologies</h4> -->
+						
+					
+						<p class="lead">This user friendly system can aid the organization in safeguarding against transgressions by visitors while offering a superlative experience as they enter and exit facilities. This VMS gives a unified view of inflow and outflow to any facility.</p>
+						<p class="lead"> It offers a host of features to enable faster admission process, reducing the time spent by visitors at the entry. Thanks to the efficient and user friendly process, the security guard at the gate can handle visitor authorization eliminating the need for dedicated manpower at reception.</p>
+
+						
+
+
+						<!--  <a href="#" class="hover-btn-new orange"><span>Learn More</span></a>-->
+					</div><!-- end messagebox -->
+				</div><!-- end col -->
+
+				<div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
+					<div class="post-media wow fadeIn">
+						<img src="images/SecqurVisit - Home.png" alt="" class="img-fluid img-rounded">
+					</div><!-- end media -->
+				</div><!-- end col -->
+				
+				<div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
+					<div class="post-media wow fadeIn">
+						<img src="images/Single Pass.png" alt="" class="img-fluid img-rounded">
+					</div><!-- end media -->
+				</div><!-- end col -->
+		
+
+
+			
 				<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
 					<div class="message-box">
-						<h2>SECQURVISIT</h2>
 						
-						<P class="lead"> This user friendly system can aid the organization in safeguarding against transgressions by visitors while offering a superlative experience as they enter and exit facilities. This Visitor Management System (VMS) gives a unified view of inflow and outflow to any facility.
-						</p>
+						
+						
 					
 
 							<br>
@@ -263,35 +270,7 @@
 			</div>
 	
 
-			<div class="row align-items-center">
-				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
-					<div class="message-box">
-						<!-- <h4>SecqurAIse Technologies</h4> -->
-						
-					
-						<p class="lead">This Artificial Intelligence (AI) powered solution offers a host of features to enable faster admission process, reducing the time spent by visitors at the entry. Thanks to the efficient and user friendly process, the security guard at the gate can handle visitor authorization eliminating the need for dedicated manpower at reception.</p>
-						<p class="lead"> The system works with multiple access control mechanisms including Face Recognition, Biometric Reader, RFID and QR code to scrutinize visitors as they attempt to enter the premises eliminating manual errors and impersonation.</p>
-
-						
-
-
-						<!--  <a href="#" class="hover-btn-new orange"><span>Learn More</span></a>-->
-					</div><!-- end messagebox -->
-				</div><!-- end col -->
-
-				<div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
-					<div class="post-media wow fadeIn">
-						<img src="images/s72.jpg" alt="" class="img-fluid img-rounded">
-					</div><!-- end media -->
-				</div><!-- end col -->
-				
-				<div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
-					<div class="post-media wow fadeIn">
-						<img src="images/s82.jpg" alt="" class="img-fluid img-rounded">
-					</div><!-- end media -->
-				</div><!-- end col -->
-			</div>
-
+		
 		
 
 
@@ -309,7 +288,7 @@
 
 		
 
-						<h2> Type Supported</h2>
+						<h2>Movement Type Supported</h2>
 					<ul style="text-indent: 1em;">
 						<li><p class="lead">Visitors with prior invitation from hosts.</p></li>
 						<li><p class="lead">Cold calling visitors without prior invitations.</p></li>
@@ -381,12 +360,12 @@
 
 						<ul style="text-indent: 1em;">
 							<li><p class="lead"><B>No CAPEX : </B> Cloud hosted so, mobile phones are all one needs to get started </p></li>
-							<li><p class="lead"><B>Cost Effective : </B> Guaranteed uptime at nominal operational cost</p></li>
-							<li><p class="lead"><B>Optimizes manpower : </B> No need for dedicated reception/receptionist</p></li>
+							
+							
 							<li><p class="lead"><B>Saves time : </B> Smooth and fast process reduces waiting time at the gate </p></li>
 							<li><p class="lead"><B>Effective : </B> Ready access to information helps optimize workflow improving overall productivity</p></li>
 							<li><p class="lead"><B>Positive environment : </B> Smooth experience at the gate makes a positive impact on visitors </p></li>
-							<li><p class="lead"><B>Secures premise : </B> Prevents transgressions by visitors by limiting access control</p></li>
+							
 						</ul>
 
 						
@@ -407,14 +386,14 @@
 	
 
 	<footer class="footer">
-		<div class="container">
+        <div class="container">
 			<div class="row">
 				<div class="col-lg-4 col-md-4 col-xs-12">
 					<div class="widget clearfix">
 						<div class="widget-title">
                             <h3>About US</h3>
                         </div>
-                        <p> At SecqurAIse, we enter the office because we want to make life easy for businesses by bringing complex technology in simple forms.</p>   
+                        <p> We are passionate about making life easy for businesses by bringing complex technology in simple forms. </p>   
 					</div><!-- end clearfix -->
 				</div><!-- end col -->
 
@@ -441,17 +420,19 @@
 						</div>
 
 						<ul class="footer-links">
-							<li><a href="mailto:info@secquraise.com">info@secquraise.com</a></li>
-							<li><a href="https://www.secquraise.com">www.secquraise.com</a></li>
-							<li>Chennai. Bangalore.</li>
-							<li>+917019936076</li>
+							<li>Sales :<a href="mailto:info@secquraise.com"> info@secquraise.com</a></li>
+							<li>Jobs :<a href="mailto:jobs@secquraise.com"> jobs@secquraise.com</a></li>
+							<li>Web :<a href="https://www.secquraise.com"> www.secquraise.com</a></li>
+				
+							<li>Phone : +917019936076</li>
+							<li>Location : Chennai. Bangalore.</li>
 						</ul><!-- end links -->
 					</div><!-- end clearfix -->
 				</div><!-- end col -->
 
 			</div><!-- end row -->
 		</div><!-- end container -->
-	</footer><!-- end footer -->
+    </footer><!-- end footer -->
 
 	<div class="copyrights">
 		<div class="container">
@@ -463,6 +444,8 @@
 			</div>
 		</div><!-- end container -->
 	</div><!-- end copyrights -->
+	<a href="#" class="fixed-btn"  style=" text-transform: uppercase; font-family: arial;
+		font-weight: 900; color: white;" data-toggle="modal" data-target="#login">Contact</a>	
 
 	<a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
 

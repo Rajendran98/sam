@@ -53,26 +53,41 @@
                   <!-- Tab panes -->
                   <div class="tab-content">
                       <div class="tab-pane active" id="Login">
-                          <form action="mailto:info@secquraise.com?subject=contact details" method="POST" enctype="text/plain" role="form" class="form-horizontal">
-                              <div class="form-group">
-                                  <div class="col-sm-12">
-                                      <input class="form-control" name="name" id="email1" placeholder="Name" type="text">
-                                  </div>
-                              </div>
-                              <div class="form-group">
-                                  <div class="col-sm-12">
-                                      <input class="form-control" name="comments" id="comments" placeholder="comments" type ="text">
-                                  </div>
-                              </div>
-                              <div class="row">
-                                  <div class="col-sm-10">
-                                      <button type="submit" value="Send" class="btn btn-light btn-radius btn-brd grd1">
-                                          Submit
-                                      </button>
-                                      
-                                  </div>
-                              </div>
-                          </form>
+						<form action="mailto:info@secquraise.com?subject=contact details" method="POST" enctype="text/plain" role="form" class="form-horizontal">
+							<div class="form-group">
+								
+									<input class="form-control" name="name" id="email1" placeholder="Name" type="text" required>
+
+							</div>
+							<div class="form-group">
+								
+									<input class="form-control" maxlength="10" name="phone number" id="phone number" placeholder="Phone Number" type ="tel" required>
+							
+							</div>
+							
+							<div class="form-group">
+								
+									<input class="form-control" name="organization" id="organization" placeholder="Organization" type ="text">
+								
+							</div>
+							
+
+							<div class="form-group">
+							
+ 									 <textarea class="form-control" name="comments" rows="4" id="comment" maxlength="150" placeholder="Comments"></textarea>
+							
+								
+							</div>
+							<div class="row">
+								<div class="col-sm-12">
+									<p style="line-height: 70px; text-align: center;">
+										<button type="submit" value="Send" class="btn btn-primary mb1 bg-navy">
+											Send
+										</button>
+									</p>	
+								</div>
+							</div>
+						</form>
                       </div>
                       
                   </div>
@@ -94,7 +109,7 @@
 	
 	<!-- Start header -->
     <header class="top-navbar">
-		<nav class="navbar navbar-expand-lg navbar-light bg-white ">
+		<nav class="navbar navbar-expand-lg navbar-light bg-white affix-top" data-spy="affix" data-offset-top="40">
 			<div class="container-fluid">
 				<a class="navbar-brand" href="index.html">
 					<img src="images/draft 1.png" alt="" style="width: 200px;height: 50;"/>
@@ -131,13 +146,14 @@
                         <li class="nav-item"><a class="nav-link" href="career.html">Careers </a></li>
                         <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
 					</ul>
+				
 				  
                     
 				</div>
 			</div>
 		</nav>
 	</header>
-	<!-- End header -->
+	<!-- End header -->	
 	
 	<div id="carouselExampleControls" class="carousel slide bs-slider box-slider" data-ride="carousel" data-pause="hover" data-interval="false" >
 		<!-- Indicators -->
@@ -157,8 +173,8 @@
 							<div class="row">
 								<div class="col-md-12 col-sm-12 text-center">
 									<div class="big-tagline">
-										<h3 animation="animated zoomInRight"><strong>Increase Efficiency . Reduce Costs.</strong></h3>
-										<p class="lead" data-animation="animated fadeInLeft">SecqurAIse Technologies leverages Artificial Intelligence to solve everyday problems in domains like Access Management, Attendance Management, Surveillance and Productivity enhancement in a cost effective manner. </p>
+										<h3 animation="animated zoomInRight"><strong>Increase Efficiency. Reduce Costs</strong></h3>
+											<p class="lead" data-animation="animated fadeInLeft">Leveraging Artificial Intelligence to solve everyday problems </p>
                                     
                                         <!--	<a href="#" class="hover-btn-new"><span>Contact Us</span></a>
 											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -171,95 +187,105 @@
 				</div><!-- end section -->
 			</div>
 			<div class="carousel-item">
-				<div id="home" class="first-section" style="background-image:url('images/b3.jpg');">
-					<div class="dtab">
-						<div class="container">
-							<div class="row">
-								<div class="col-md-12 col-sm-12 text-center">
-									<div class="big-tagline">
-										<h2 data-animation="animated zoomInRight"><strong>SECQURVISIT</strong></h2>
-										<p class="lead" data-animation="animated fadeInLeft">SecqurVisit offers an efficient and extremely user friendly system that can aid the organization
-                                            in safeguarding against transgressions by visitors while offering a superlative experience as they
-                                            enter and exit facilities. </p>
+				<a href="secqurvision.html">
+					<div id="home" class="first-section" style="background-image:url('images/bg1.jpg');">
+						<div class="dtab">
+							<div class="container">
+								<div class="row">
+									<div class="col-md-12 col-sm-12 text-center">
+										<div class="big-tagline">
+											<h2 data-animation="animated zoomInRight"><strong>SECQURVISION</strong></h2>
+											<p class="lead" data-animation="animated fadeInLeft">Surveillance to a large extent today is being handled through a network of CCTV cameras with
+												limited or no manpower to monitor the live feed.</p>
 											
+										</div>
 									</div>
-								</div>
-							</div><!-- end row -->            
-						</div><!-- end container -->
-					</div>
-				</div><!-- end section -->
+								</div><!-- end row -->            
+							</div><!-- end container -->
+						</div>
+					</div><!-- end section -->
+				</a>
+			</div>
+			
+			<div class="carousel-item">
+				<a href="secqurin.html">
+					<div id="home" class="first-section" style="background-image:url('images/bg2.jpg');">
+						<div class="dtab">
+							<div class="container">
+								<div class="row">
+									<div class="col-md-12 col-sm-12 text-center">
+										<div class="big-tagline">
+											<h2 data-animation="animated zoomInRight"><strong>SECQURIN</strong></h2>
+											<p class="lead" data-animation="animated fadeInLeft">SecqurAIse’s contactless Attendance Management system powered by Artificial Intelligence. This highly flexible system offers three different modes of deployment.</p>
+											
+										</div>
+									</div>
+								</div><!-- end row -->            
+							</div><!-- end container -->
+						</div>
+					</div><!-- end section -->
+				</a>
+            </div>
+			<div class="carousel-item">
+				<a href="secqurvisit.html">
+					<div id="home" class="first-section" style="background-image:url('images/b3.jpg');">
+						<div class="dtab">
+							<div class="container">
+								<div class="row">
+									<div class="col-md-12 col-sm-12 text-center">
+										<div class="big-tagline">
+											<h2 data-animation="animated zoomInRight"><strong>SECQURVISIT</strong></h2>
+											<p class="lead" data-animation="animated fadeInLeft">SecqurVisit offers an efficient and extremely user friendly system that can aid the organization
+												in safeguarding against transgressions by visitors while offering a superlative experience as they
+												enter and exit facilities. </p>
+												
+										</div>
+									</div>
+								</div><!-- end row -->            
+							</div><!-- end container -->
+						</div>
+					</div><!-- end section -->
+				</a>
 			</div>
 			<div class="carousel-item">
-				<div id="home" class="first-section" style="background-image:url('images/b1.jpg');">
-					<div class="dtab">
-						<div class="container">
-							<div class="row">
-								<div class="col-md-12 col-sm-12 text-center">
-									<div class="big-tagline">
-										<h2 data-animation="animated zoomInRight"><strong>SECQURWORK</strong></h2>
-										<p class="lead" data-animation="animated fadeInLeft">1 IP included with each server 
-											Your Choice of any OS (CentOS, Windows, Debian, Fedora)
-											FREE Reboots</p>
+				<a href="secqurwork.html">
+					<div id="home" class="first-section" style="background-image:url('images/b1.jpg');">
+						<div class="dtab">
+							<div class="container">
+								<div class="row">
+									<div class="col-md-12 col-sm-12 text-center">
+										<div class="big-tagline">
+											<h2 data-animation="animated zoomInRight"><strong>SECQURWORK</strong></h2>
+											<p class="lead" data-animation="animated fadeInLeft">Productivity Monitor & Enhancer</p>
+												
+										</div>
+									</div>
+								</div><!-- end row -->            
+							</div><!-- end container -->
+						</div>
+					</div><!-- end section -->
+				</a>
+            </div>
+            
+          
+            <div class="carousel-item">
+				<a href="secqurcheck.html">
+					<div id="home" class="first-section" style="background-image:url('images/b2.jpg');">
+						<div class="dtab">
+							<div class="container">
+								<div class="row">
+									<div class="col-md-12 col-sm-12 text-center">
+										<div class="big-tagline">
+											<h2 data-animation="animated zoomInRight"><strong>SECQURCHECK</strong></h2>
+											<p class="lead" data-animation="animated fadeInLeft">Quality Assurance</p>
 											
+										</div>
 									</div>
-								</div>
-							</div><!-- end row -->            
-						</div><!-- end container -->
-					</div>
-				</div><!-- end section -->
-            </div>
-            <div class="carousel-item">
-				<div id="home" class="first-section" style="background-image:url('images/exe.jpg');">
-					<div class="dtab">
-						<div class="container">
-							<div class="row">
-								<div class="col-md-12 col-sm-12 text-center">
-									<div class="big-tagline">
-										<h2 data-animation="animated zoomInRight"><strong>SECQURVISION</strong></h2>
-										<p class="lead" data-animation="animated fadeInLeft">Surveillance to a large extent today is being handled through a network of CCTV cameras with
-                                            limited or no manpower to monitor the live feed.</p>
-										
-									</div>
-								</div>
-							</div><!-- end row -->            
-						</div><!-- end container -->
-					</div>
-				</div><!-- end section -->
-            </div>
-            <div class="carousel-item">
-				<div id="home" class="first-section" style="background-image:url('images/b2.jpg');">
-					<div class="dtab">
-						<div class="container">
-							<div class="row">
-								<div class="col-md-12 col-sm-12 text-center">
-									<div class="big-tagline">
-										<h2 data-animation="animated zoomInRight"><strong>SECQURIN</strong></h2>
-										<p class="lead" data-animation="animated fadeInLeft">SecqurAIse’s contactless Attendance Management system powered by Artificial Intelligence. This highly flexible system offers three different modes of deployment.</p>
-										
-									</div>
-								</div>
-							</div><!-- end row -->            
-						</div><!-- end container -->
-					</div>
-				</div><!-- end section -->
-            </div>
-            <div class="carousel-item">
-				<div id="home" class="first-section" style="background-image:url('images/backgr.jpeg');">
-					<div class="dtab">
-						<div class="container">
-							<div class="row">
-								<div class="col-md-12 col-sm-12 text-center">
-									<div class="big-tagline">
-										<h2 data-animation="animated zoomInRight"><strong>SECQURCHECK</strong></h2>
-										<p class="lead" data-animation="animated fadeInLeft">Surveillance to a large extent today is being handled through a network of CCTV cameras with
-                                            limited or no manpower to monitor the live feed.</p>
-										
-									</div>
-								</div>
-							</div><!-- end row -->            
-						</div><!-- end container -->
-					</div>
-				</div><!-- end section -->
+								</div><!-- end row -->            
+							</div><!-- end container -->
+						</div>
+					</div><!-- end section -->
+				</a>
 			</div>
 			<!-- Left Control -->
 			<a class="new-effect carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -275,15 +301,18 @@
 		</div>
 	</div>
 	
+	
     <div id="overviews" class="section wb">
         <div class="container">
             <div class="section-title row text-center">
                 <div class="col-md-8 offset-md-2">
-                   
+                   <br>
                     <p class="lead">SecqurAIse Technologies leverages Artificial Intelligence to solve everyday problems in domains like Access Management, Attendance Management, Surveillance and Productivity enhancement in a cost effective manner.</p>
 
                 </div>
-            </div><!-- end title -->
+			</div><!-- end title -->
+			
+			
         
          
 			
@@ -297,15 +326,22 @@
 
     <footer class="footer">
         <div class="container">
-            <div class="row">
-                
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-xs-12">
+					<div class="widget clearfix">
+						<div class="widget-title">
+                            <h3>About US</h3>
+                        </div>
+                        <p> We are passionate about making life easy for businesses by bringing complex technology in simple forms. </p>   
+					</div><!-- end clearfix -->
+				</div><!-- end col -->
 
 				<div class="col-lg-4 col-md-4 col-xs-12">
-                    <div class="widget clearfix">
-                        <div class="widget-title">
-                            <h3>Information Link</h3>
-                        </div>
-                        <ul class="footer-links">
+					<div class="widget clearfix">
+						<div class="widget-title">
+							<h3>Information Link</h3>
+						</div>
+						<ul class="footer-links">
                             <li><a href="index.html">Home</a></li>
                             <li><a href="secqurvisit.html">Product</a></li>
                             <li><a href="execution.html">Execution</a></li>
@@ -313,70 +349,28 @@
                             <li><a href="career.html">Careers</a></li>
                             <li><a href="about.html">About Us</a></li>
                         </ul><!-- end links -->
-                    </div><!-- end clearfix -->
-                </div><!-- end col -->
-				
-                <div class="col-lg-4 col-md-4 col-xs-12">
-                    <div class="widget clearfix">
-                        <div class="widget-title">
+					</div><!-- end clearfix -->
+				</div><!-- end col -->
+
+				<div class="col-lg-4 col-md-4 col-xs-12">
+					<div class="widget clearfix">
+						<div class="widget-title">
 							<h3>Contact Details</h3>
 						</div>
 
 						<ul class="footer-links">
-							<li><a href="mailto:info@secquraise.com">info@secquraise.com</a></li>
-							<li><a href="https://www.secquraise.com">www.secquraise.com</a></li>
-							<li>Chennai. Bangalore.</li>
-							<li>+917019936076</li>
+							<li>Sales :<a href="mailto:info@secquraise.com"> info@secquraise.com</a></li>
+							<li>Jobs :<a href="mailto:jobs@secquraise.com"> jobs@secquraise.com</a></li>
+							<li>Web :<a href="https://www.secquraise.com"> www.secquraise.com</a></li>
+				
+							<li>Phone : +917019936076</li>
+							<li>Location : Chennai. Bangalore.</li>
 						</ul><!-- end links -->
-                    </div><!-- end clearfix -->
-                </div><!-- end col -->
-				
-				<div class="col-lg-4 col-md-4 col-xs-12">
-                    <div class="widget clearfix">
-						<div class="widget-title">
-							<h3>Contact</h3>
-						</div>
-						<form action="mailto:info@secquraise.com?subject=contact details" method="POST" enctype="text/plain" role="form" class="form-horizontal">
-							<div class="form-group">
-								
-									<input class="form-control" name="name" id="email1" placeholder="Name" type="text" required>
-
-							</div>
-							<div class="form-group">
-								
-									<input class="form-control" maxlength="10" name="phone number" id="phone number" placeholder="Phone Number" type ="tel" required>
-							
-							</div>
-							
-							<div class="form-group">
-								
-									<input class="form-control" name="organization" id="organization" placeholder="Organization" type ="text">
-								
-							</div>
-							
-
-							<div class="form-group">
-							
- 									 <textarea class="form-control" name="comments" rows="3" id="comment" maxlength="150" placeholder="Comments"></textarea>
-							
-								
-							</div>
-							<div class="row">
-								<div class="col-sm-12">
-									<p style="line-height: 70px; text-align: center;">
-										<button type="submit" value="Send" class="btn btn-primary mb1 bg-navy">
-											Send
-										</button>
-									</p>	
-								</div>
-							</div>
-						</form>
-										
-                    </div><!-- end clearfix -->
+					</div><!-- end clearfix -->
 				</div><!-- end col -->
-				
-            </div><!-- end row -->
-        </div><!-- end container -->
+
+			</div><!-- end row -->
+		</div><!-- end container -->
     </footer><!-- end footer -->
 
     <div class="copyrights">
@@ -388,8 +382,11 @@
                 </div>
             </div>
         </div><!-- end container -->
-    </div><!-- end copyrights -->
-
+	</div><!-- end copyrights -->
+	
+	<a href="#" class="fixed-btn"  style=" text-transform: uppercase; font-family: arial;
+	font-weight: 900; color: white;" data-toggle="modal" data-target="#login">Contact</a>
+	
     <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
 
     <!-- ALL JS FILES -->

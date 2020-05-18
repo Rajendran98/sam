@@ -30,6 +30,8 @@
 <!-- Custom CSS -->
 <link rel="stylesheet" href="css/custom.css">
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <!-- Modernizer for Portfolio -->
 <script src="js/modernizer.js"></script>
 
@@ -44,82 +46,60 @@
 
 	<!-- Modal -->
 	<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-		<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-			<div class="modal-content">
-				<div class="modal-header tit-up">
-					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-					<h4 class="modal-title">Customer Login</h4>
-				</div>
-				<div class="modal-body customer-box">
-					<!-- Nav tabs -->
-					<ul class="nav nav-tabs">
-						<li><a class="active" href="#Login" data-toggle="tab">Login</a></li>
-						<li><a href="#Registration" data-toggle="tab">Registration</a></li>
-					</ul>
-					<!-- Tab panes -->
-					<div class="tab-content">
-						<div class="tab-pane active" id="Login">
-							<form role="form" class="form-horizontal">
-								<div class="form-group">
-									<div class="col-sm-12">
-										<input class="form-control" id="email1" placeholder="Name" type="text">
-									</div>
-								</div>
-								<div class="form-group">
-									<div class="col-sm-12">
-										<input class="form-control" id="exampleInputPassword1" placeholder="Email"
-											type="email">
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-sm-10">
-										<button type="submit" class="btn btn-light btn-radius btn-brd grd1">
-											Submit
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+          <div class="modal-content">
+              <div class="modal-header tit-up">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                  <h4 class="modal-title">Contact</h4>
+              </div>
+              <div class="modal-body customer-box">
+                  <!-- Nav tabs -->
+                  
+                  <!-- Tab panes -->
+                  <div class="tab-content">
+                      <div class="tab-pane active" id="Login">
+						<form action="mailto:info@secquraise.com?subject=contact details" method="POST" enctype="text/plain" role="form" class="form-horizontal">
+							<div class="form-group">
+								
+									<input class="form-control" name="name" id="email1" placeholder="Name" type="text" required>
+
+							</div>
+							<div class="form-group">
+								
+									<input class="form-control" maxlength="10" name="phone number" id="phone number" placeholder="Phone Number" type ="tel" required>
+							
+							</div>
+							
+							<div class="form-group">
+								
+									<input class="form-control" name="organization" id="organization" placeholder="Organization" type ="text">
+								
+							</div>
+							
+
+							<div class="form-group">
+							
+ 									 <textarea class="form-control" name="comments" rows="4" id="comment" maxlength="150" placeholder="Comments"></textarea>
+							
+								
+							</div>
+							<div class="row">
+								<div class="col-sm-12">
+									<p style="line-height: 70px; text-align: center;">
+										<button type="submit" value="Send" class="btn btn-primary mb1 bg-navy">
+											Send
 										</button>
-										<a class="for-pwd" href="javascript:;">Forgot your password?</a>
-									</div>
+									</p>	
 								</div>
-							</form>
-						</div>
-						<div class="tab-pane" id="Registration">
-							<form role="form" class="form-horizontal">
-								<div class="form-group">
-									<div class="col-sm-12">
-										<input class="form-control" placeholder="Name" type="text">
-									</div>
-								</div>
-								<div class="form-group">
-									<div class="col-sm-12">
-										<input class="form-control" id="email" placeholder="Email" type="email">
-									</div>
-								</div>
-								<div class="form-group">
-									<div class="col-sm-12">
-										<input class="form-control" id="mobile" placeholder="Mobile" type="email">
-									</div>
-								</div>
-								<div class="form-group">
-									<div class="col-sm-12">
-										<input class="form-control" id="password" placeholder="Password"
-											type="password">
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-sm-10">
-										<button type="button" class="btn btn-light btn-radius btn-brd grd1">
-											Save &amp; Continue
-										</button>
-										<button type="button" class="btn btn-light btn-radius btn-brd grd1">
-											Cancel</button>
-									</div>
-								</div>
-							</form>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+							</div>
+						</form>
+                      </div>
+                      
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
 
 	<!-- LOADER -->
 	<div id="preloader">
@@ -180,14 +160,16 @@
 		</nav>
 	</header>
 
-	<div id="testimonials" class="parallax section db parallax-off" style="background-image:url('images/ex.jpg');">
+	<div id="testimonials" class="parallax section db parallax-off" style="background-image:url('images/IMG_20200517_080915.jpg');  background: rgba(0,0,0,0.8);">
         <div class="container">
-            <div class="section-title text-center">
-                <h3 style="color: orangered;">SECQURIN</h3>
-				<p style="color: white;">SecqurAIse’s contactless Attendance Management system powered by Artificial Intelligence. This highly flexible system offers three different modes of deployment.
+            <div class="section-title text-center" style="margin-bottom: 10px;">
+
+				<h3><span style="color: rgba(30, 221, 192, 0.774);">SECQUR</span><span style="color: rgb(238, 28, 28);">IN</span></h3>
+				<hr>
+				<p style="color: white;">Contactless Attendance Management and Screening system powered by Artificial Intelligence.
 				
 				</p>
-			
+				<hr>
 			</div><!-- end title -->
 			
             
@@ -203,9 +185,65 @@
                                             enter and exit facilities. </p>
 		</div>
 	</div> -->
+<br>
+
+<div class="container">
+	<div class="row">
+        <div class="col-lg-12 text-center">
+           
+            <h2 class="section-title" style="margin-bottom: 5px;">Our Service Area</h2>
+		</div>
+		
+			<div class="col-lg-3 col-sm-6 mb-4">
+				<div class="card border-0 shadow rounded-xs pt-5">
+					<a href="#f1">
+						<div class="card-body"> <i class="fa fa-camera  icon-lg icon-primary icon-bg-primary icon-bg-circle mb-3"></i>
+							<h4 style="font-size: 20px; font-weight: 500;" class="mt-4 mb-3" >Face Recognition with Temperature scanner</h4>
+							<p>This can also integrate with legacy attendance management systems used by the clients.<br> <br></p>
+						</div>
+						
+					</a>
+				</div>
+			</div>
+		
+        <div class="col-lg-3 col-sm-6 mb-4">
+            <div class="card border-0 shadow rounded-xs pt-5">
+				<a href="#f2">
+					<div class="card-body"> <i class="fa fa-thermometer-quarter icon-lg icon-yellow icon-bg-yellow icon-bg-circle mb-3"></i>
+						<h4 style="font-size: 20px; font-weight: 500;" class="mt-4 mb-3">Temperature Scanner</h4>
+						<p>It records of temperature with photos of the person are stored in the system for future reference. <br><br></p>
+					</div>
+				</a>	
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 mb-4">
+            <div class="card border-0 shadow rounded-xs pt-5">
+				<a href="#f3">
+					<div class="card-body"> <i class="fa fa-user-circle icon-lg icon-purple icon-bg-purple icon-bg-circle mb-3"></i>
+						<h4 style="font-size: 20px; font-weight: 500;" class="mt-4 mb-3">Face Recognition</h4>
+						<p> It connects to a cloud-hosted attendance management system which can be accessed by clients anytime anywhere.     <br><br></p>
+					</div>
+				</a>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 mb-4">
+            <div class="card border-0 shadow rounded-xs pt-5">
+				<a href="#f4">
+					<div class="card-body"> <i class="fa fa-unlock-alt icon-lg icon-cyan icon-bg-cyan icon-bg-circle mb-3"></i>
+						<h4 style="font-size: 20px; font-weight: 500;" class="mt-4 mb-3">SecqurAccess</h4>
+						<p>SecqurIN devices can interface with optional accessories like Electronic and Electro-magnetic door locks to provide smart access management.</p>
+					</div>
+				</a>
+            </div>
+        </div>
+      
+    </div>
+</div>
 
 	<div id="overviews" class="section">
 		<div class="container">
+
+			
 
 				
 
@@ -215,7 +253,7 @@
 					<div class="message-box">
 						<!-- <h4>SecqurAIse Technologies</h4> -->
 						
-						<h4>Face Recognition with Temperature scanner:</h4>
+						<h4 id="f1" style="font-weight: 500; font-size: 25px;">Face Recognition with Temperature scanner:</h4>
 						<p class="lead">The device runs on home-grown Artificial Intelligence software and is highly tuned for local conditions. It connects to a cloud-hosted attendance management system which can be accessed by clients anytime anywhere. This can also integrate with legacy attendance management systems used by the clients.</p>
 					
 						<ul>
@@ -223,43 +261,19 @@
 							<li><p class="lead">Alarm if temperature is above normal</p></li>
 							<li><p class="lead">Stand-alone device</p></li>
 							<li><p class="lead">Can connect to Cloud or local machine over WiFi</p></li>
+							<li><p class="lead">Multiple devices work in clusters</p></li>
 							
 
 						</ul>
 						<h4>Temperature reader with high accuracy:</h4>
 						<ul style="text-indent: 1em;">
 							<li><p class="lead">Displays temperature in °F</p></li>
-							<li><p class="lead"><B>Accuracy:</B> 0.5°F</p></li>
+							<li><p class="lead"><B>Accuracy:</B> +/ -0.5°F</p></li>
 							<li><p class="lead"><B>Fast:</B> Takes less than 1 Sec to measure temperatur</p></li>
 							<li><p class="lead"><B>Range:</B> Temperature measured at 45cm distance</p></li>
 						</ul>
 						
 						
-					
-						
-						
-						
-					
-						<!--  <a href="#" class="hover-btn-new orange"><span>Learn More</span></a>-->
-					</div><!-- end messagebox -->
-				</div><!-- end col -->
-
-				<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
-					<div class="post-media wow fadeIn">
-						<img src="images/tempera.png" alt="" class="img-fluid img-rounded">
-					</div><!-- end media -->
-				</div><!-- end col -->
-			</div>
-
-
-
-			<div class="row align-items-center">
-				<div class="col-xl-8 col-lg-8 col-md-12 col-sm-12">
-					<div class="message-box">
-						<!-- <h4>SecqurAIse Technologies</h4> -->
-					
-						
-					
 						<h4>Attendance using Face Recognition:</h4>
 						<ul style="text-indent: 1em;">
 							<li><p class="lead">High accuracy</p></li>
@@ -270,14 +284,19 @@
 						</ul>
 						
 						
-					
+						
 						
 					
 						<!--  <a href="#" class="hover-btn-new orange"><span>Learn More</span></a>-->
 					</div><!-- end messagebox -->
 				</div><!-- end col -->
 
-			</div>	
+				<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+					<div class="post-media wow fadeIn">
+						<img src="images/end.png" alt="" class="img-fluid img-rounded">
+					</div><!-- end media -->
+				</div><!-- end col -->
+			</div>
 
 
 
@@ -286,7 +305,54 @@
 					<div class="message-box">
 						<!-- <h4>SecqurAIse Technologies</h4> -->
 						
-						<h4>Face Recognition:</h4>
+						<h4 id="f2" style="font-weight: 500; font-size: 25px;">Temperature Scanner:</h4>
+
+						<p class="lead">The SecqurIN temperature scanner is very accurate and has a long range. It helps organizations effectively screen employees and visitors as they enter the premises and records of temperature with photos of the person are stored in the system for future reference.</p>
+						
+						<h4>The Device:</h4>
+						<ul>
+							<li><p class="lead">Contactless temperature screening</p></li>
+							<li><p class="lead">Alarm if temperature is above normal</p></li>
+							<li><p class="lead">Stand-alone device</p></li>
+							<li><p class="lead">Can connect to Cloud or local machine over WiFi</p></li>	
+
+						</ul>
+
+						<h4>Temperature reader with high accuracy:</h4>
+						<ul style="text-indent: 1em;">
+							<li><p class="lead">Displays temperature in °F</p></li>
+							<li><p class="lead"><B>Accuracy:</B> +/ -0.5°F</p></li>
+							<li><p class="lead"><B>Fast:</B> Takes less than 1 Sec to measure temperature</p></li>
+							<li><p class="lead"><B>Range:</B> Temperature measured at 45cm distance</p></li>
+						</ul>
+
+					
+						
+						
+							
+					
+						
+						
+					
+						<!--  <a href="#" class="hover-btn-new orange"><span>Learn More</span></a>-->
+					</div><!-- end messagebox -->
+				</div><!-- end col -->
+
+				<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+					<div class="post-media wow fadeIn">
+						<img src="images/end1.png" alt="" class="img-fluid img-rounded">
+					</div><!-- end media -->
+				</div><!-- end col -->
+			</div>
+			
+
+
+			<div class="row align-items-center">
+				<div class="col-xl-8 col-lg-8 col-md-12 col-sm-12">
+					<div class="message-box">
+						<!-- <h4>SecqurAIse Technologies</h4> -->
+						
+						<h4 id="f3" style="font-weight: 500; font-size: 25px;">Face Recognition:</h4>
 
 						<p class="lead">The device runs on home-grown Artificial Intelligence software and is highly tuned for local conditions. It connects to a cloud-hosted attendance management system which can be accessed by clients anytime anywhere. This can also integrate with legacy attendance management systems used by the clients.</p>
 						
@@ -327,12 +393,37 @@
 
 			
 		
+			<div class="row align-items-center">
+				<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+					<div class="message-box">
 
-		
+						<h4 id="f4" style="font-weight: 500; font-size: 25px;">SecqurAccess:</h4>
+						<p class="lead">SecqurIN devices can interface with optional accessories like Electronic and Electro-magnetic door locks to provide smart access management. The door locks will open only if the authorization conditions are fulfilled.</p>
+					</div>
+				</div>	
+					<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+						<div class="post-media wow fadeIn">
+							<img src="images/end2.png" alt="" class="img-fluid img-rounded">
+						</div><!-- end media -->
+					</div>
+					<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+						<div class="post-media wow fadeIn">
+							<img src="images/end3.png" alt="" class="img-fluid img-rounded">
+						</div><!-- end media -->
+					</div>
 
-
-
-
+					<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+						<div class="message-box">
+							<ul style="text-indent: 1em;">
+								<li><p class="lead">Optional accessory</p></li>
+								<li><p class="lead">Can activate electronic & electro-magnetic locks</p></li>
+								<li><p class="lead">Quick reaction < 2 seconds </p></li>
+								<li><p class="lead">Eliminates need for manning entrances</p></li>
+								<li><p class="lead">Consistent performance over long duration of use</p></li>
+							</ul>
+						</div>
+					</div>
+			</div>			
 			
 
 
@@ -348,14 +439,14 @@
 
 
 	<footer class="footer">
-		<div class="container">
+        <div class="container">
 			<div class="row">
 				<div class="col-lg-4 col-md-4 col-xs-12">
 					<div class="widget clearfix">
 						<div class="widget-title">
                             <h3>About US</h3>
                         </div>
-                        <p> At SecqurAIse, we enter the office because we want to make life easy for businesses by bringing complex technology in simple forms.</p>   
+                        <p> We are passionate about making life easy for businesses by bringing complex technology in simple forms. </p>   
 					</div><!-- end clearfix -->
 				</div><!-- end col -->
 
@@ -382,17 +473,19 @@
 						</div>
 
 						<ul class="footer-links">
-							<li><a href="mailto:info@secquraise.com">info@secquraise.com</a></li>
-							<li><a href="https://www.secquraise.com">www.secquraise.com</a></li>
-							<li>Chennai. Bangalore.</li>
-							<li>+917019936076</li>
+							<li>Sales :<a href="mailto:info@secquraise.com"> info@secquraise.com</a></li>
+							<li>Jobs :<a href="mailto:jobs@secquraise.com"> jobs@secquraise.com</a></li>
+							<li>Web :<a href="https://www.secquraise.com"> www.secquraise.com</a></li>
+				
+							<li>Phone : +917019936076</li>
+							<li>Location : Chennai. Bangalore.</li>
 						</ul><!-- end links -->
 					</div><!-- end clearfix -->
 				</div><!-- end col -->
 
 			</div><!-- end row -->
 		</div><!-- end container -->
-	</footer><!-- end footer -->
+    </footer><!-- end footer -->
 
 	<div class="copyrights">
 		<div class="container">
@@ -404,6 +497,9 @@
 			</div>
 		</div><!-- end container -->
 	</div><!-- end copyrights -->
+	
+		<a href="#" class="fixed-btn"  style=" text-transform: uppercase; font-family: arial;
+		font-weight: 900; color: white;" data-toggle="modal" data-target="#login">Contact</a>	
 
 	<a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
 
