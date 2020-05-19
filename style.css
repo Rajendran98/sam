@@ -159,7 +159,7 @@ a,
 .lead {
     font-size: 18px;
     line-height: 30px;
-    color: #767676;
+    color: black;
     margin: 0;
     padding: 0;
 }
@@ -922,10 +922,6 @@ input.transparent-input{
 
 
 
-    html {
-        scroll-behavior: smooth;
-      }
-    
     .shadow,
     .subscription-wrapper {
         box-shadow: 0px 15px 39px 0px rgba(8, 18, 109, 0.1) !important
@@ -1079,6 +1075,63 @@ input.transparent-input{
     cursor: pointer;
   }
   
+
+  .fixed-btn1{
+    position: fixed;
+    top: 45%;
+    right: 0%;
+    background: rgb(224, 34, 34);
+    width: 210px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 5px;
+    
+    cursor: pointer;
+  }
+
+ .fixed-btn2{
+    position: fixed;
+    top: 55%;
+    right: 0%;
+    background: rgb(34, 224, 129);
+    width: 210px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 5px;
+    
+    cursor: pointer;
+  }
+ 
+  .fixed-btn3{
+    position: fixed;
+    top: 65%;
+    right: 0%;
+    background: rgb(238, 183, 34);
+    width: 210px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 5px;
+    
+    cursor: pointer;
+  }
+
+  .fixed-btn4{
+    position: fixed;
+    top: 75%;
+    right: 0%;
+    background: grey;
+    width: 210px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 5px;
+    
+    cursor: pointer;
+  }
+
   .fixed-btn a{
     text-transform: uppercase;
     font-family: arial;
@@ -1219,7 +1272,7 @@ input.transparent-input{
 }
 
 .section-title p {
-    color: #999;
+    color: black;
     font-weight: 400;
     font-size: 18px;
     line-height: 33px;
@@ -2012,14 +2065,14 @@ input.transparent-input{
 }
 
 .message-box p {
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 .message-box .lead {
     padding-top: 10px;
     font-size: 19px;
-    font-style: italic;
-    color: #999;
+    font-weight: unset;
+    color: black;
     padding-bottom: 0;
 }
 
@@ -2751,7 +2804,8 @@ select.mobile-device {
 .footer {
    /* padding: 10px 0px !important; */
     color: #cccccc;
-	background:#4c5a7d url('images/world-map.png') no-repeat center; 
+    background:#4c5a7d url('images/world-map.png') no-repeat center; 
+    padding: 10px;
 }
 
 .footer .widget-title {
@@ -3006,6 +3060,34 @@ select.mobile-device {
     transition: all .7s ease-in-out;
 }
 
+.dmtop1 {
+    background-color: #3C3D41;
+    z-index: 100;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    position: fixed;
+    bottom: 70px;
+    border-radius: 3px;
+    right: 10px;
+    text-align: center;
+    font-size: 28px;
+    color: #ffffff !important;
+    cursor: pointer;
+    -webkit-transition: all .7s ease-in-out;
+    -moz-transition: all .7s ease-in-out;
+    -o-transition: all .7s ease-in-out;
+    -ms-transition: all .7s ease-in-out;
+    transition: all .7s ease-in-out;
+}
+.dmtop1:hover{
+    background: #eea412;
+    color: black;
+}
+
+html{
+    scroll-behavior: smooth;
+}
 .icon_wrap {
     background-color: #1f1f1f;
     width: 100px;

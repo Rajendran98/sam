@@ -68,7 +68,29 @@
 			}, 700);
 		});
 	}
-	
+    
+    
+
+
+
+    /* addition*/
+
+    $(document).ready(function(){
+        $(window).scroll(function () {
+                if ($(this).scrollTop() <= 550  ) {
+                    $('#dmtop1').fadeIn();
+                } else {
+                    $('#dmtop1').fadeOut();
+                }
+            });
+            // scroll body to 0px on click
+            $('#dmtop1').click(function () {
+                $('body,html').animate({
+                    scrollTop: 4000
+                }, 0);
+                return false;
+            });
+    });
     /* ==============================================
      Fun Facts -->
      =============================================== */
