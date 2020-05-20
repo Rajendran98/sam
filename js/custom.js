@@ -32,6 +32,11 @@
         }
     });
 
+   
+
+
+
+
     /* ==============================================
 	Loader -->
 	=============================================== */
@@ -77,7 +82,7 @@
 
     $(document).ready(function(){
         $(window).scroll(function () {
-                if ($(this).scrollTop() <= 550  ) {
+                if ($(this).scrollTop() <= 50  ) {
                     $('#dmtop1').fadeIn();
                 } else {
                     $('#dmtop1').fadeOut();
