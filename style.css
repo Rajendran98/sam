@@ -687,7 +687,7 @@ a img.aligncenter {
   width: 100%;
 }
 .navbar-right li a.hover-btn-new::after {
-  background: #ffffff !important;
+  background: #253D5B !important;
   height: 100%;
   left: 0;
   top: 0;
@@ -783,10 +783,45 @@ a img.aligncenter {
 
 
 .box-slider{
-	height: 75%;
+	height: 50%;
 }
 
-
+.container1 {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+  
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+  
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 
 
 .box-slider .carousel-control-prev{
@@ -1272,7 +1307,7 @@ input.transparent-input{
 	top: 0px;
 	left: 0px;
     display: block;
-    background: rgba(0,0,0,0.5);
+  
 }
 
 .first-section h2 {
