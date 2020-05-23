@@ -736,7 +736,7 @@ a img.aligncenter {
 
 
 .box-slider1{
-	height: 45%;
+	height: 58%;
 }
 
 
@@ -783,7 +783,7 @@ a img.aligncenter {
 
 
 .box-slider{
-	height: 50%;
+	height: 60%;
 }
 
 .container1 {
@@ -1183,10 +1183,9 @@ input.transparent-input{
 
  .fixed-btn2{
     position: fixed;
-    top: 55%;
-    right: 0%;
+   
     background: rgb(34, 224, 129);
-    width: 210px;
+    width: 80%;
     height: 45px;
     line-height: 45px;
     text-align: center;
@@ -3287,7 +3286,7 @@ body.host_version .first-section .effect-1.slide-btn::after{
 /**-------------- inner Page css ---------------**/
 
 .all-title-box{
-	background: url(images/banner.jpg)no-repeat;
+	background: url(images/backgrnd.png)no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
